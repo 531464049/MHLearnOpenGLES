@@ -1,15 +1,14 @@
 //
-//  Test3VC.h
+//  Test4VC.h
 //  MHLearnOpenGLES
 //
-//  Created by mahao on 2019/5/30.
+//  Created by mahao on 2019/5/31.
 //  Copyright © 2019 mh. All rights reserved.
 //
 
 #import "BaseVC.h"
 
-
-@interface Test3VC : BaseVC
+@interface Test4VC : BaseVC
 
 @end
 

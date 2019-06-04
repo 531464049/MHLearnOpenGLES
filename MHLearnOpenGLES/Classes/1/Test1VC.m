@@ -13,11 +13,7 @@
 //#define overturn    //翻转
 #define symmetry    //对称
 
-@interface Test1VC ()<GLKViewDelegate>
-
-@property(nonatomic,strong)EAGLContext * context;
-@property(nonatomic,strong)GLKBaseEffect * baseEffect;
-@property(nonatomic,strong)GLKView * glkView;
+@interface Test1VC ()
 
 @end
 
@@ -26,8 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [self setupConfig];
+    // 初始化EAGLContext  GLKView
+    [self setupContext_glkView];
 #ifdef nomal
     //正常
     [self uploadVertexArray1];
@@ -44,18 +40,6 @@
 #endif
     
     [self uploadTexture];
-}
-- (void)setupConfig
-{
-    self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
-    
-    self.glkView = [[GLKView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width) context:self.context];
-    self.glkView.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
-    self.glkView.drawableColorFormat = GLKViewDrawableColorFormatRGBA8888;//颜色缓冲区格式
-    self.glkView.delegate = self;
-    [self.view addSubview:self.glkView];
-
-    [EAGLContext setCurrentContext:self.context];
 }
 
 - (void)uploadTexture

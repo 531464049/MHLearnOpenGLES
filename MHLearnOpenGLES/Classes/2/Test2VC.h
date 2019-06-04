@@ -15,6 +15,6 @@
 
 
 
-@interface Test2View : UIView
+@interface Test2View : BaseView
 
 @end
