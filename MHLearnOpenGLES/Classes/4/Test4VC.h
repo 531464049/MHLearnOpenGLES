@@ -1,5 +1,5 @@
 //
-//  Test4VC.h
+//  Test4_2VC.h
 //  MHLearnOpenGLES
 //
 //  Created by mahao on 2019/5/31.
@@ -7,8 +7,13 @@
 //
 
 #import "BaseVC.h"
+#import "GLESUtils.h"
+#import "GLESMath.h"
 
 @interface Test4VC : BaseVC
 
 @end
 
+@interface Test4_2View : BaseView
+
+@end

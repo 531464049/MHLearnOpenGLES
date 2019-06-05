@@ -13,7 +13,11 @@
 //#define overturn    //翻转
 #define symmetry    //对称
 
-@interface Test1VC ()
+@interface Test1VC ()<GLKViewDelegate>
+
+@property(nonatomic,strong)EAGLContext * context;
+@property(nonatomic,strong)GLKBaseEffect * baseEffect;
+@property(nonatomic,strong)GLKView * glkView;
 
 @end
 
@@ -41,7 +45,18 @@
     
     [self uploadTexture];
 }
-
+// 初始化EAGLContext  GLKView
+- (void)setupContext_glkView
+{
+    self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    
+    self.glkView = [[GLKView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) context:self.context];
+    self.glkView.drawableColorFormat = GLKViewDrawableColorFormatRGBA8888;//颜色缓冲区格式
+    self.glkView.delegate = self;
+    [self.view addSubview:self.glkView];
+    
+    [EAGLContext setCurrentContext:self.context];
+}
 - (void)uploadTexture
 {
     //纹理贴图 GLKTextureLoader读取图片，创建纹理GLKTextureInfo
