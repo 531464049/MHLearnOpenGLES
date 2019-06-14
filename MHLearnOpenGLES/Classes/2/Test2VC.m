@@ -209,6 +209,8 @@
     //释放
     CGContextRelease(spriteContext);
     
+    GLuint texture;
+    glGenTextures(1, &texture);
     //绑定纹理到默认的纹理ID（这里只有一张图片，故而相当于默认于片元着色器里面的colorMap，如果有多张图不可以这么做）
     glBindTexture(GL_TEXTURE_2D, 0);
     

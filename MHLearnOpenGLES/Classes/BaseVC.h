@@ -10,6 +10,10 @@
 #import <GLKit/GLKit.h>
 #import <OpenGLES/ES2/gl.h>
 
+#import "MHProgramLink.h"
+#import "GLESUtils.h"
+#import "GLESMath.h"
+
 @interface BaseVC : UIViewController
 
 @end

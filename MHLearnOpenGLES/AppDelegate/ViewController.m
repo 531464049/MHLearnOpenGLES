@@ -29,8 +29,8 @@
     self.tableview.dataSource = self;
     [self.view addSubview:self.tableview];
     
-    self.titleArr = @[@"绘制一张图片",@"shader编译链接、简单图形变换",@"三维图形变换",@"图形变换、纹理贴图、着色、深度测试"];
-    self.classArr = @[@"Test1VC",@"Test2VC",@"Test3VC",@"Test4VC"];
+    self.titleArr = @[@"绘制一张图片",@"shader编译链接、简单图形变换",@"三维图形变换",@"图形变换、纹理贴图、着色、深度测试",@"🌎🌛错误",@"OpenGL渲染",@"OpenGL矩阵变换",@"OpenGL立方体"];
+    self.classArr = @[@"Test1VC",@"Test2VC",@"Test3VC",@"Test4VC",@"Test_5VC",@"Test6VC",@"Test7VC",@"Test8VC"];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

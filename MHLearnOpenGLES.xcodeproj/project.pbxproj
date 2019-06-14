@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F034FFBE22A7A6D0003C218A /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F034FFBA22A7A6D0003C218A /* Earth512x256.jpg */; };
+		F034FFBF22A7A6D0003C218A /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = F034FFBC22A7A6D0003C218A /* sphere.obj */; };
+		F034FFC022A7A6D0003C218A /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = F034FFBD22A7A6D0003C218A /* Moon256x128.png */; };
+		F034FFC322A7A70C003C218A /* Test_5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F034FFC222A7A70C003C218A /* Test_5VC.m */; };
 		F05A1BDD22A0B5CE00E6637C /* Test3v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F05A1BDC22A0B5CE00E6637C /* Test3v.vs */; };
 		F05A1BDF22A0B5DD00E6637C /* Test3f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F05A1BDE22A0B5DD00E6637C /* Test3f.fs */; };
 		F05A1BE722A0BD6500E6637C /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A1BE122A0BD6500E6637C /* GLESUtils.m */; };
@@ -15,6 +19,14 @@
 		F05A1BF322A1207900E6637C /* Test4v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F05A1BF222A1207900E6637C /* Test4v.vs */; };
 		F05A1BF522A1209900E6637C /* Test4f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F05A1BF422A1209900E6637C /* Test4f.fs */; };
 		F05A1BF822A1217C00E6637C /* Test4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F05A1BF722A1217C00E6637C /* Test4VC.m */; };
+		F0630C2D22A753B600512D16 /* MHVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0630C2C22A753B600512D16 /* MHVertexAttribArrayBuffer.m */; };
+		F0787DC222B223FC00B98E60 /* Test7VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0787DC122B223FC00B98E60 /* Test7VC.m */; };
+		F0787DC522B2269100B98E60 /* test7f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0787DC322B2269100B98E60 /* test7f.fs */; };
+		F0787DC622B2269100B98E60 /* test7v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0787DC422B2269100B98E60 /* test7v.vs */; };
+		F0787DCA22B22E9200B98E60 /* Test8VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0787DC922B22E9200B98E60 /* Test8VC.m */; };
+		F0787DCD22B22F3B00B98E60 /* test8v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0787DCB22B22F3B00B98E60 /* test8v.vs */; };
+		F0787DCE22B22F3B00B98E60 /* test8f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0787DCC22B22F3B00B98E60 /* test8f.fs */; };
+		F0787DD022B23A9200B98E60 /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0787DCF22B23A9100B98E60 /* container.jpg */; };
 		F0815E81229F6117003FB676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0815E80229F6117003FB676 /* AppDelegate.m */; };
 		F0815E84229F6117003FB676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0815E83229F6117003FB676 /* ViewController.m */; };
 		F0815E87229F6117003FB676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0815E85229F6117003FB676 /* Main.storyboard */; };
@@ -27,9 +39,24 @@
 		F0816159229FA6CC003FB676 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0816158229FA6CC003FB676 /* BaseVC.m */; };
 		F0816163229FA9B7003FB676 /* Test2F.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0816161229FA9B7003FB676 /* Test2F.fs */; };
 		F0816164229FA9B7003FB676 /* Test2V.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0816162229FA9B7003FB676 /* Test2V.vs */; };
+		F0AFEFFF22B0DCB100736CBD /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = F0AFEFFE22B0DCB100736CBD /* awesomeface.png */; };
+		F0AFF00222B0DE1000736CBD /* test6_2f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0AFF00022B0DE1000736CBD /* test6_2f.fs */; };
+		F0AFF00322B0DE1000736CBD /* test6_2v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0AFF00122B0DE1000736CBD /* test6_2v.vs */; };
+		F0AFF00622B0DE3000736CBD /* test6_3v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0AFF00422B0DE3000736CBD /* test6_3v.vs */; };
+		F0AFF00722B0DE3000736CBD /* test6_3f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0AFF00522B0DE3000736CBD /* test6_3f.fs */; };
+		F0BAA28822AF36A80014A7F5 /* Test6VC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BAA28722AF36A80014A7F5 /* Test6VC.m */; };
+		F0BAA28B22AF76150014A7F5 /* test6v.vs in Resources */ = {isa = PBXBuildFile; fileRef = F0BAA28922AF76150014A7F5 /* test6v.vs */; };
+		F0BAA28C22AF76150014A7F5 /* test6f.fs in Resources */ = {isa = PBXBuildFile; fileRef = F0BAA28A22AF76150014A7F5 /* test6f.fs */; };
+		F0BAA29222AF85D60014A7F5 /* MHProgramLink.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BAA29122AF85D60014A7F5 /* MHProgramLink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F034FFBA22A7A6D0003C218A /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		F034FFBB22A7A6D0003C218A /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		F034FFBC22A7A6D0003C218A /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		F034FFBD22A7A6D0003C218A /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon256x128.png; sourceTree = "<group>"; };
+		F034FFC122A7A70C003C218A /* Test_5VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_5VC.h; sourceTree = "<group>"; };
+		F034FFC222A7A70C003C218A /* Test_5VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_5VC.m; sourceTree = "<group>"; };
 		F05A1BDC22A0B5CE00E6637C /* Test3v.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Test3v.vs; sourceTree = "<group>"; };
 		F05A1BDE22A0B5DD00E6637C /* Test3f.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Test3f.fs; sourceTree = "<group>"; };
 		F05A1BE122A0BD6500E6637C /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
@@ -42,6 +69,17 @@
 		F05A1BF422A1209900E6637C /* Test4f.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Test4f.fs; sourceTree = "<group>"; };
 		F05A1BF622A1217C00E6637C /* Test4VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4VC.h; sourceTree = "<group>"; };
 		F05A1BF722A1217C00E6637C /* Test4VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4VC.m; sourceTree = "<group>"; };
+		F0630C2B22A753B600512D16 /* MHVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		F0630C2C22A753B600512D16 /* MHVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		F0787DC022B223FC00B98E60 /* Test7VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test7VC.h; sourceTree = "<group>"; };
+		F0787DC122B223FC00B98E60 /* Test7VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test7VC.m; sourceTree = "<group>"; };
+		F0787DC322B2269100B98E60 /* test7f.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test7f.fs; sourceTree = "<group>"; };
+		F0787DC422B2269100B98E60 /* test7v.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test7v.vs; sourceTree = "<group>"; };
+		F0787DC822B22E9200B98E60 /* Test8VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8VC.h; sourceTree = "<group>"; };
+		F0787DC922B22E9200B98E60 /* Test8VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test8VC.m; sourceTree = "<group>"; };
+		F0787DCB22B22F3B00B98E60 /* test8v.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test8v.vs; sourceTree = "<group>"; };
+		F0787DCC22B22F3B00B98E60 /* test8f.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test8f.fs; sourceTree = "<group>"; };
+		F0787DCF22B23A9100B98E60 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
 		F0815E7C229F6117003FB676 /* MHLearnOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHLearnOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0815E7F229F6117003FB676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0815E80229F6117003FB676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +101,17 @@
 		F081615B229FA7A1003FB676 /* Test3VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3VC.m; sourceTree = "<group>"; };
 		F0816161229FA9B7003FB676 /* Test2F.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Test2F.fs; sourceTree = "<group>"; };
 		F0816162229FA9B7003FB676 /* Test2V.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Test2V.vs; sourceTree = "<group>"; };
+		F0AFEFFE22B0DCB100736CBD /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		F0AFF00022B0DE1000736CBD /* test6_2f.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6_2f.fs; sourceTree = "<group>"; };
+		F0AFF00122B0DE1000736CBD /* test6_2v.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6_2v.vs; sourceTree = "<group>"; };
+		F0AFF00422B0DE3000736CBD /* test6_3v.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6_3v.vs; sourceTree = "<group>"; };
+		F0AFF00522B0DE3000736CBD /* test6_3f.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6_3f.fs; sourceTree = "<group>"; };
+		F0BAA28622AF36A80014A7F5 /* Test6VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test6VC.h; sourceTree = "<group>"; };
+		F0BAA28722AF36A80014A7F5 /* Test6VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test6VC.m; sourceTree = "<group>"; };
+		F0BAA28922AF76150014A7F5 /* test6v.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6v.vs; sourceTree = "<group>"; };
+		F0BAA28A22AF76150014A7F5 /* test6f.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test6f.fs; sourceTree = "<group>"; };
+		F0BAA29022AF85D60014A7F5 /* MHProgramLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHProgramLink.h; sourceTree = "<group>"; };
+		F0BAA29122AF85D60014A7F5 /* MHProgramLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHProgramLink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +125,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F034FFB922A7A6D0003C218A /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F034FFBA22A7A6D0003C218A /* Earth512x256.jpg */,
+				F034FFBB22A7A6D0003C218A /* sphere.h */,
+				F034FFBC22A7A6D0003C218A /* sphere.obj */,
+				F034FFBD22A7A6D0003C218A /* Moon256x128.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		F05A1BE022A0BD6500E6637C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +172,6 @@
 		F05A1BEC22A0DF5D00E6637C /* 3 */ = {
 			isa = PBXGroup;
 			children = (
-				F05A1BE022A0BD6500E6637C /* Utils */,
 				F081615A229FA7A1003FB676 /* Test3VC.h */,
 				F081615B229FA7A1003FB676 /* Test3VC.m */,
 				F05A1BDC22A0B5CE00E6637C /* Test3v.vs */,
@@ -130,6 +189,48 @@
 				F05A1BF422A1209900E6637C /* Test4f.fs */,
 			);
 			path = 4;
+			sourceTree = "<group>";
+		};
+		F0630C2A22A7537A00512D16 /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				F034FFB922A7A6D0003C218A /* res */,
+				F0630C2E22A75A9600512D16 /* demo */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		F0630C2E22A75A9600512D16 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				F0630C2B22A753B600512D16 /* MHVertexAttribArrayBuffer.h */,
+				F0630C2C22A753B600512D16 /* MHVertexAttribArrayBuffer.m */,
+				F034FFC122A7A70C003C218A /* Test_5VC.h */,
+				F034FFC222A7A70C003C218A /* Test_5VC.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		F0787DBF22B223D800B98E60 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				F0787DC022B223FC00B98E60 /* Test7VC.h */,
+				F0787DC122B223FC00B98E60 /* Test7VC.m */,
+				F0787DC322B2269100B98E60 /* test7f.fs */,
+				F0787DC422B2269100B98E60 /* test7v.vs */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		F0787DC722B22E8600B98E60 /* 8 */ = {
+			isa = PBXGroup;
+			children = (
+				F0787DC822B22E9200B98E60 /* Test8VC.h */,
+				F0787DC922B22E9200B98E60 /* Test8VC.m */,
+				F0787DCC22B22F3B00B98E60 /* test8f.fs */,
+				F0787DCB22B22F3B00B98E60 /* test8v.vs */,
+			);
+			path = 8;
 			sourceTree = "<group>";
 		};
 		F0815E73229F6117003FB676 = {
@@ -186,13 +287,37 @@
 			children = (
 				F0816157229FA6CC003FB676 /* BaseVC.h */,
 				F0816158229FA6CC003FB676 /* BaseVC.m */,
+				F0BAA29022AF85D60014A7F5 /* MHProgramLink.h */,
+				F0BAA29122AF85D60014A7F5 /* MHProgramLink.m */,
 				F05A1BE922A0DF3500E6637C /* 1 */,
 				F05A1BEA22A0DF4800E6637C /* 2 */,
 				F05A1BEC22A0DF5D00E6637C /* 3 */,
 				F05A1BEE22A1154F00E6637C /* 4 */,
+				F0630C2A22A7537A00512D16 /* 5 */,
+				F0BAA28522AF36870014A7F5 /* 6 */,
+				F0787DBF22B223D800B98E60 /* 7 */,
+				F0787DC722B22E8600B98E60 /* 8 */,
 				F0816152229F6EFF003FB676 /* forTest.jpeg */,
+				F0787DCF22B23A9100B98E60 /* container.jpg */,
+				F0AFEFFE22B0DCB100736CBD /* awesomeface.png */,
+				F05A1BE022A0BD6500E6637C /* Utils */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0BAA28522AF36870014A7F5 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				F0BAA28622AF36A80014A7F5 /* Test6VC.h */,
+				F0BAA28722AF36A80014A7F5 /* Test6VC.m */,
+				F0BAA28A22AF76150014A7F5 /* test6f.fs */,
+				F0BAA28922AF76150014A7F5 /* test6v.vs */,
+				F0AFF00022B0DE1000736CBD /* test6_2f.fs */,
+				F0AFF00122B0DE1000736CBD /* test6_2v.vs */,
+				F0AFF00522B0DE3000736CBD /* test6_3f.fs */,
+				F0AFF00422B0DE3000736CBD /* test6_3v.vs */,
+			);
+			path = 6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,15 +377,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BAA28B22AF76150014A7F5 /* test6v.vs in Resources */,
 				F0816164229FA9B7003FB676 /* Test2V.vs in Resources */,
 				F05A1BDF22A0B5DD00E6637C /* Test3f.fs in Resources */,
+				F034FFBE22A7A6D0003C218A /* Earth512x256.jpg in Resources */,
+				F0AFEFFF22B0DCB100736CBD /* awesomeface.png in Resources */,
+				F0AFF00622B0DE3000736CBD /* test6_3v.vs in Resources */,
 				F05A1BDD22A0B5CE00E6637C /* Test3v.vs in Resources */,
 				F0816153229F6EFF003FB676 /* forTest.jpeg in Resources */,
+				F0787DC522B2269100B98E60 /* test7f.fs in Resources */,
+				F0AFF00322B0DE1000736CBD /* test6_2v.vs in Resources */,
 				F05A1BF522A1209900E6637C /* Test4f.fs in Resources */,
 				F0815E8C229F6121003FB676 /* LaunchScreen.storyboard in Resources */,
 				F0816163229FA9B7003FB676 /* Test2F.fs in Resources */,
+				F0BAA28C22AF76150014A7F5 /* test6f.fs in Resources */,
+				F0787DCE22B22F3B00B98E60 /* test8f.fs in Resources */,
+				F0787DC622B2269100B98E60 /* test7v.vs in Resources */,
+				F034FFC022A7A6D0003C218A /* Moon256x128.png in Resources */,
 				F05A1BF322A1207900E6637C /* Test4v.vs in Resources */,
+				F0787DCD22B22F3B00B98E60 /* test8v.vs in Resources */,
 				F0815E89229F6121003FB676 /* Assets.xcassets in Resources */,
+				F0AFF00722B0DE3000736CBD /* test6_3f.fs in Resources */,
+				F034FFBF22A7A6D0003C218A /* sphere.obj in Resources */,
+				F0AFF00222B0DE1000736CBD /* test6_2f.fs in Resources */,
+				F0787DD022B23A9200B98E60 /* container.jpg in Resources */,
 				F0815E87229F6117003FB676 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +415,17 @@
 				F05A1BED22A0E02B00E6637C /* Test3VC.m in Sources */,
 				F0815E84229F6117003FB676 /* ViewController.m in Sources */,
 				F0815E8F229F6121003FB676 /* main.m in Sources */,
+				F0BAA29222AF85D60014A7F5 /* MHProgramLink.m in Sources */,
 				F05A1BE722A0BD6500E6637C /* GLESUtils.m in Sources */,
+				F0787DCA22B22E9200B98E60 /* Test8VC.m in Sources */,
 				F0816156229FA6B5003FB676 /* Test2VC.m in Sources */,
+				F0630C2D22A753B600512D16 /* MHVertexAttribArrayBuffer.m in Sources */,
+				F034FFC322A7A70C003C218A /* Test_5VC.m in Sources */,
 				F0816159229FA6CC003FB676 /* BaseVC.m in Sources */,
 				F0816151229F6E40003FB676 /* Test1VC.m in Sources */,
+				F0BAA28822AF36A80014A7F5 /* Test6VC.m in Sources */,
 				F05A1BE822A0BD6500E6637C /* GLESMath.c in Sources */,
+				F0787DC222B223FC00B98E60 /* Test7VC.m in Sources */,
 				F0815E81229F6117003FB676 /* AppDelegate.m in Sources */,
 				F05A1BF822A1217C00E6637C /* Test4VC.m in Sources */,
 			);
