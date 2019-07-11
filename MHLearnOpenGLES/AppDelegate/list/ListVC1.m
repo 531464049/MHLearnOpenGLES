@@ -1,14 +1,14 @@
 //
-//  ViewController.m
+//  ListVC1.m
 //  MHLearnOpenGLES
 //
-//  Created by mahao on 2019/5/30.
+//  Created by mahao on 2019/6/24.
 //  Copyright © 2019 mh. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ListVC1.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ListVC1 ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)UITableView * tableview;
 
@@ -17,20 +17,18 @@
 
 @end
 
-@implementation ViewController
+@implementation ListVC1
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableview = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableview.delegate = self;
     self.tableview.dataSource = self;
     [self.view addSubview:self.tableview];
     
-    self.titleArr = @[@"Test",@"Getting Started",@"Lighting"];
-    self.classArr = @[@"ListVC1",@"ListVC2",@"ListVC3"];
+    self.titleArr = @[@"绘制一张图片",@"shader编译链接、简单图形变换",@"三维图形变换",@"图形变换、纹理贴图、着色、深度测试",@"🌎🌛错误"];
+    self.classArr = @[@"Test1VC",@"Test2VC",@"Test3VC",@"Test4VC",@"Test_5VC"];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

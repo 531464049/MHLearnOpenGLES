@@ -1,14 +1,14 @@
 //
-//  ViewController.m
+//  ListVC3.m
 //  MHLearnOpenGLES
 //
-//  Created by mahao on 2019/5/30.
+//  Created by mahao on 2019/6/25.
 //  Copyright © 2019 mh. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ListVC3.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ListVC3 ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)UITableView * tableview;
 
@@ -16,21 +16,19 @@
 @property(nonatomic,copy)NSArray * classArr;
 
 @end
-
-@implementation ViewController
+@implementation ListVC3
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableview = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableview.delegate = self;
     self.tableview.dataSource = self;
     [self.view addSubview:self.tableview];
     
-    self.titleArr = @[@"Test",@"Getting Started",@"Lighting"];
-    self.classArr = @[@"ListVC1",@"ListVC2",@"ListVC3"];
+    self.titleArr = @[@"Colors",@"BasicLighting"];
+    self.classArr = @[@"ColorsVC",@"BasicLightingVC"];
+    
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -42,7 +40,7 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * cellid = @"fgfgfgfgg";
+    static NSString * cellid = @"5656562321564";
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellid];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellid];
@@ -63,3 +61,4 @@
 
 
 @end
+
